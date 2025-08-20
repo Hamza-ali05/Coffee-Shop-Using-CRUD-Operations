@@ -1,0 +1,14 @@
+/* assets/css/style.css */
+:root {
+  --coffee:#6f4e37;
+  --cream:#f5ebe0;
+  --ink:#1f1f1f;
+}
+
+body { background: var(--cream); color: var(--ink); }
+.navbar { background: var(--coffee) !important; }
+.btn-coffee { background: var(--coffee); color:#fff; border:none; }
+.btn-coffee:hover { opacity:.9; }
+.card { border-radius: 14px; }
+.table thead th { background: #2e2e2e; color:#fff; }
+a { text-decoration: none; }
